@@ -107,5 +107,15 @@ Due to restrictions, you will need to hydrate some datasets using Twitter's API.
 - Deep Learning: Keras, TensorFlow
 - NLP libraries: NLTK, pyarabic, TextBlob
 
+# Contact
+
+For any questions or inquiries, please contact the project team:
+
+- **Zahaf Boualem Nadjib** - [Email](mailto:zahafndjib@gmail.com)
+
+- **Rabiai Mehdi Ayoub** - [Email](mailto:rabiaimehdiayoub@gmail.com)
+
+Thank you for your interest in our project! 
+
 ## License
 This project is licensed under the MIT License.
