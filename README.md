@@ -29,12 +29,12 @@ These models were vectorized using **TF-IDF (Term Frequency-Inverse Document Fre
 #### Vectorizer Process
 The TF-IDF vectorizer works by converting text into a matrix of token counts and then scaling these counts according to the importance of each word in the dataset. Words that appear frequently in one document but rarely across the dataset are given higher weights. This helps in capturing the relevance of words in each dialectal context. 
 
-![TF-IDF Vectorizer Process](images\TF-IDF.png)
+![TF-IDF Vectorizer Process](images/TF-IDF.png)
 
 
 Below is a visual representation of the experimental system used for Arabic dialect identification:
 
-![Proposed System for Arabic Dialect Identification](images\Methods.png)
+![Proposed System for Arabic Dialect Identification](images/Methods.png)
 
 ### Deep Learning Models
 We implemented advanced deep learning architectures that handle complex relationships in textual data, especially suited for the nuances of Arabic dialects.
@@ -47,7 +47,7 @@ We implemented advanced deep learning architectures that handle complex relation
 #### 2. **LSTM + RNN (Long Short-Term Memory + Recurrent Neural Networks)**
 - **Model Overview**: LSTM is a type of recurrent neural network (RNN) capable of learning long-term dependencies, making it suitable for sequence prediction tasks like text classification. LSTMs overcome the vanishing gradient problem in traditional RNNs, allowing them to retain information over longer sequences of text.
 
-![LSTM + RNN](images\LSTM-RNN.png)
+![LSTM + RNN](images/LSTM-RNN.png)
 
 
 - **Architecture**: 
@@ -56,7 +56,7 @@ We implemented advanced deep learning architectures that handle complex relation
     - **Dense Layer**: Maps the LSTM output to the final classification labels (19 dialects in our case).
 - **Advantages**: LSTM models are highly effective at capturing sequential patterns in text, making them ideal for language modeling tasks like dialect identification.
 
-![LSTM + RNN Architecture](images\Archi-LSTM+RNN.png)
+![LSTM + RNN Architecture](images/Archi-LSTM+RNN.png)
 
 #### 3. **Training Process**
 - For both deep learning models, the dataset was split into training and testing sets (90% for training, 10% for testing).
